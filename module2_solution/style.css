@@ -8,10 +8,7 @@ h1 {
 }
 div#container {
   position: relative;
-  border: 3px solid white;
   background-color: gray;
-  margin-right: auto;
-  margin-left: auto;
   height: 220px;
   margin-bottom: 2px;
 }
@@ -26,30 +23,34 @@ p {
 }
 @media (min-width: 992px){
 	.col-lg {
-		width: 33.33%;
+		width: 32%;
 		float: left;
-		border: 3px solid white;
+		border: 1px solid black;
+		margin: 5px;
 	}
 }
 
 
 @media (min-width: 768px) and (max-width: 991px){
 	.col-md {
-		width: 50%;
+		width: 48.5%;
 		float: left;
-		border: 3px solid white;
+		border: 1px solid black;
+		margin: 5px;
 	}
 	.col-md-third {
-		width: 100%;
+		width: 98.3%;
 		float: left;
-		border: 3px solid white;
+		border: 1px solid black;
+		margin: 5px;
 	}
 }
 @media (max-width: 767px){
 	.col-sm {
-		width: 100%;
+		width: 99%;
 		float: left;
-		border: 3px solid white;
+		border: 1px solid black;
+		margin: 5px;
 	}
 }
 
@@ -57,34 +58,37 @@ p {
 	top: 0;
  	right: 0;
  	position: absolute;
- 	background-color: red;
+ 	background-color: #D59898;
  	height: 40px;
  	width: 150px;
  	color: black;
  	font-size:175%;
  	text-align:center;
+ 	border: 1px solid black;
 }
 #box2 {
 	top: 0;
  	right: 0;
  	position: absolute;
- 	background-color: blue;
+ 	background-color: #C14543;
  	height: 40px;
  	width: 150px;
  	color: white;
  	font-size:175%;
  	text-align:center;
+ 	border: 1px solid black;
 
 }
 #box3 {
 	top: 0;
  	right: 0;
  	position: absolute;
- 	background-color: green;
+ 	background-color: #E5D198;
  	height: 40px;
  	width: 150px;
  	color: black;
  	font-family: Helvetica;
 	font-size:175%;
 	text-align:center;
+	border: 1px solid black;
 }
