@@ -2,19 +2,24 @@
   box-sizing: border-box;
 }
 h1 {
-  margin-bottom: 15px;
-  background-color: red;
+  margin-bottom: 50px;
+  text-align:center;
+  font-size:250%;
 }
-p {
-  border: 1px solid black;
+div#container {
+  position: relative;
+  border: 3px solid white;
   background-color: gray;
-  width: 90%;
-  height: 150px;
   margin-right: auto;
   margin-left: auto;
+  height: 220px;
+  margin-bottom: 2px;
+}
+p {
   font-family: Helvetica;
-  color: white;
-  float: left;
+  color: black;
+  font-size:125%;
+  margin-top: 40px;
 }
 .row {
   width: 100%;
@@ -22,17 +27,64 @@ p {
 @media (min-width: 992px){
 	.col-lg {
 		width: 33.33%;
+		float: left;
+		border: 3px solid white;
 	}
 }
+
 
 @media (min-width: 768px) and (max-width: 991px){
 	.col-md {
 		width: 50%;
+		float: left;
+		border: 3px solid white;
+	}
+	.col-md-third {
+		width: 100%;
+		float: left;
+		border: 3px solid white;
 	}
 }
 @media (max-width: 767px){
 	.col-sm {
 		width: 100%;
+		float: left;
+		border: 3px solid white;
 	}
 }
 
+#box1 {
+	top: 0;
+ 	right: 0;
+ 	position: absolute;
+ 	background-color: red;
+ 	height: 40px;
+ 	width: 150px;
+ 	color: black;
+ 	font-size:175%;
+ 	text-align:center;
+}
+#box2 {
+	top: 0;
+ 	right: 0;
+ 	position: absolute;
+ 	background-color: blue;
+ 	height: 40px;
+ 	width: 150px;
+ 	color: white;
+ 	font-size:175%;
+ 	text-align:center;
+
+}
+#box3 {
+	top: 0;
+ 	right: 0;
+ 	position: absolute;
+ 	background-color: green;
+ 	height: 40px;
+ 	width: 150px;
+ 	color: black;
+ 	font-family: Helvetica;
+	font-size:175%;
+	text-align:center;
+}
